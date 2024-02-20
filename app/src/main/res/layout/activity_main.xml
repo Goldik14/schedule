@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/back"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/GetGroup"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:hint="2. Пример: ЭВМб-22-1"
+        android:textColor="@color/white"
+        android:background="@drawable/round"
+        android:backgroundTint="#8BFFFFFF"
+        />
+
+    <Button
+        android:id="@+id/GetGroupID"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/montserrat_alternates_medium"
+        android:text="1. Загрузить группы"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/SelectImage"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/montserrat_alternates_medium"
+        android:text="Выбрать фон"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/SelectGroup"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:layout_gravity="right"
+        android:background="@drawable/roundbutton"
+        android:fontFamily="@font/montserrat_alternates_medium"
+        android:text="3. Сохранить группу"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/roundbutton"
+        android:text="4. перейти к расписанию"
+        android:fontFamily="@font/montserrat_alternates_medium"
+        android:textColor="@color/black"
+        android:id="@+id/GoToSchedule"
+        />
+
+</LinearLayout>

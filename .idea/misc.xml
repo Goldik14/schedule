@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1285" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/backgroundbutton.xml" value="0.1285" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/clickbutton.xml" value="0.1795" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/ic_back.xml" value="0.228" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/ic_background.xml" value="0.1795" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/ic_cat.xml" value="0.1285" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/ic_doggy.xml" value="0.242" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/ic_estetic.xml" value="0.228" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1285" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/ic_launchpic.xml" value="0.228" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/ic_menu.xml" value="0.228" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/ic_next.xml" value="0.228" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/ic_test.xml" value="0.228" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/ic_water.xml" value="0.158" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/round.xml" value="0.228" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/roundbutton.xml" value="0.228" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/spokebutton2.xml" value="0.1285" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/font/.xml" value="0.14010416666666667" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/font/almendra_display.xml" value="0.28020833333333334" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/layout/activity_main2.xml" value="0.25" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/layout/activity_next_week.xml" value="0.264" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/layout/activity_now_week.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

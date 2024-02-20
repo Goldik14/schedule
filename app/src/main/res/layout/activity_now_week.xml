@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Background"
+        android:scaleType="centerCrop"
+        android:layout_below="@+id/relativeLayout"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:background="#000000"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout1">
+
+            <Button
+                android:id="@+id/BackActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#7700FF"
+                android:text="Назад"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat_alternates"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:id="@+id/GoMenu"
+                android:layout_toRightOf="@id/BackActivity"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#8D2AFF"
+                android:text="В меню"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat_alternates"
+                />
+
+            <Button
+                android:id="@+id/NextActivity"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@id/GoMenu"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#7700FF"
+                android:text="Дальше"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat_alternates"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout1"
+            android:id="@+id/relativeLayout2"
+            android:layout_marginTop="2dp">
+
+            <Button
+                android:layout_width="65dp"
+                android:layout_height="40dp"
+                android:text="ПН"
+                android:textColor="@color/black"
+                android:id="@+id/Pond"
+                android:background="@drawable/roundbutton"
+                android:fontFamily="@font/montserrat_alternates"
+                />
+
+            <Button
+                android:layout_width="65dp"
+                android:layout_height="40dp"
+                android:text="ВТ"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/Pond"
+                android:id="@+id/Vtor"
+                android:background="@drawable/roundbutton"
+                android:fontFamily="@font/montserrat_alternates"
+                />
+
+            <Button
+                android:layout_width="65dp"
+                android:layout_height="40dp"
+                android:text="СР"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/Vtor"
+                android:id="@+id/Sred"
+                android:background="@drawable/roundbutton"
+                android:fontFamily="@font/montserrat_alternates"
+                />
+
+            <Button
+                android:layout_width="65dp"
+                android:layout_height="40dp"
+                android:text="ЧТ"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/Sred"
+                android:id="@+id/Chet"
+                android:background="@drawable/roundbutton"
+                android:fontFamily="@font/montserrat_alternates"
+                />
+
+            <Button
+                android:layout_width="65dp"
+                android:layout_height="40dp"
+                android:text="ПТ"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/Chet"
+                android:id="@+id/Pyat"
+                android:background="@drawable/roundbutton"
+                android:fontFamily="@font/montserrat_alternates"
+                />
+
+            <Button
+                android:layout_width="65dp"
+                android:layout_height="40dp"
+                android:text="СБ"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@+id/Pyat"
+                android:id="@+id/Subb"
+                android:background="@drawable/roundbutton"
+                android:fontFamily="@font/montserrat_alternates"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout2"
+            android:layout_marginTop="2dp">
+
+            <Button
+                android:id="@+id/OneGroup"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#92FF58"
+                android:text="1"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat_alternates"
+                />
+
+            <Button
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:text="-"
+                android:textColor="@color/black"
+                android:layout_toRightOf="@id/OneGroup"
+                android:id="@+id/AllWeek"
+                android:background="@drawable/roundbutton"
+                android:fontFamily="@font/montserrat_alternates"
+                />
+
+            <Button
+                android:id="@+id/TwoGroup"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/roundbutton"
+                android:backgroundTint="#FF5858"
+                android:text="2"
+                android:textColor="@color/black"
+                android:fontFamily="@font/montserrat_alternates"
+                android:layout_toRightOf="@id/AllWeek"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/round"
+                android:fontFamily="@font/montserrat_alternates"
+                android:paddingLeft="20dp"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:visibility="invisible"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="3dp"
+                android:id="@+id/vt"
+                android:text=""
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat_alternates"
+                android:textSize="18dp"
+                android:background="@drawable/round"
+                android:paddingLeft="20dp"
+                android:visibility="invisible"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="3dp"
+                android:id="@+id/sr"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:fontFamily="@font/montserrat_alternates"
+                android:background="@drawable/round"
+                android:paddingLeft="20dp"
+                android:visibility="invisible"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="3dp"
+                android:id="@+id/cht"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:fontFamily="@font/montserrat_alternates"
+                android:background="@drawable/round"
+                android:paddingLeft="20dp"
+                android:visibility="invisible"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="3dp"
+                android:id="@+id/pt"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:fontFamily="@font/montserrat_alternates"
+                android:background="@drawable/round"
+                android:paddingLeft="20dp"
+                android:visibility="invisible"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="3dp"
+                android:id="@+id/sb"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:fontFamily="@font/montserrat_alternates"
+                android:background="@drawable/round"
+                android:paddingLeft="20dp"
+                android:visibility="invisible"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
