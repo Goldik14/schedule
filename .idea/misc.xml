@@ -5,6 +5,7 @@
       <map>
         <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1285" />
         <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/backgroundbutton.xml" value="0.1285" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/circle_thumb.xml" value="0.1795" />
         <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/clickbutton.xml" value="0.1795" />
         <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/ic_back.xml" value="0.228" />
         <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/ic_background.xml" value="0.1795" />
@@ -22,7 +23,7 @@
         <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/drawable/spokebutton2.xml" value="0.1285" />
         <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/font/.xml" value="0.14010416666666667" />
         <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/font/almendra_display.xml" value="0.28020833333333334" />
-        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/layout/activity_main2.xml" value="0.25" />
         <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/layout/activity_next_week.xml" value="0.264" />
         <entry key="..\:/Users/stepa/AndroidStudioProjects/schedule/app/src/main/res/layout/activity_now_week.xml" value="0.2" />
