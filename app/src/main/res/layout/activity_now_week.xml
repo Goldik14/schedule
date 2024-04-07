@@ -12,8 +12,289 @@
         android:layout_height="match_parent"
         android:id="@+id/Background"
         android:scaleType="centerCrop"
-        android:layout_below="@+id/relativeLayout"
         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linerLayout"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <Button
+            android:id="@+id/SetFindSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/montserrat_alternates_medium"
+            android:text="Найти расписание группы"
+            android:textColor="@color/black"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            />
+
+        <Button
+            android:id="@+id/SetVisual"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/montserrat_alternates_medium"
+            android:text="Навести красоту"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            />
+
+        <Button
+            android:id="@+id/SettingSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/montserrat_alternates_medium"
+            android:text="Настройки расписания"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/roundbutton"
+            android:text="Перейти к расписанию"
+            android:fontFamily="@font/montserrat_alternates_medium"
+            android:textColor="@color/black"
+            android:id="@+id/GoToSchedule"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linerLayout2"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/Back1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/montserrat_alternates_medium"
+            android:text="Назад"
+            android:textColor="@color/black"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            />
+
+        <Button
+            android:id="@+id/GetGroupID"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/montserrat_alternates_medium"
+            android:text="1. Загрузить группы"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            />
+
+        <AutoCompleteTextView
+            android:id="@+id/GetGroup"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:hint="2. Пример: ЭВМб-22-1"
+            android:textColor="@color/white"
+            android:background="@drawable/round"
+            android:backgroundTint="#8BFFFFFF"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:completionThreshold="1"
+            android:dropDownHeight="120dp"
+            android:popupBackground="#92252525"
+            />
+
+        <Button
+            android:id="@+id/SelectGroup"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/montserrat_alternates_medium"
+            android:text="3. Сохранить группу"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linerLayout3"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/Back2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/montserrat_alternates_medium"
+            android:text="Назад"
+            android:textColor="@color/black"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            />
+
+        <Button
+            android:id="@+id/SelectImage"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/montserrat_alternates_medium"
+            android:text="Выбрать фон"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            />
+
+        <Button
+            android:id="@+id/SelectColorButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/montserrat_alternates_medium"
+            android:text="Выбрать цвет кнопкам"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            />
+
+        <Button
+            android:id="@+id/SelectColorText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/montserrat_alternates_medium"
+            android:text="Сменить цвет текста"
+            android:textColor="@color/black"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linerLayout4"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/Back3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/montserrat_alternates_medium"
+            android:text="Назад"
+            android:textColor="@color/black"
+            android:layout_marginTop="250dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            />
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/SetFirstGroup"
+            android:text="Отображать расписание 1 подгруппы"
+            android:textColor="@color/black"
+            android:background="@drawable/roundbutton"
+            android:textSize="18dp"
+            android:paddingLeft="5dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:paddingStart="10dp"/>
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/SetSecondGroup"
+            android:text="Отображать расписание 2 подгруппы"
+            android:textColor="@color/black"
+            android:background="@drawable/roundbutton"
+            android:textSize="18dp"
+            android:paddingLeft="5dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:paddingStart="10dp"/>
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/SetAcademyGroup"
+            android:text="Отображать расписание IT Academy"
+            android:textColor="@color/black"
+            android:background="@drawable/roundbutton"
+            android:textSize="18dp"
+            android:paddingLeft="5dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:paddingStart="10dp"/>
+
+        <Switch
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/ChetNechet"
+            android:text="Отображать четную/нечетную неделю"
+            android:textColor="@color/black"
+            android:background="@drawable/roundbutton"
+            android:textSize="18dp"
+            android:paddingLeft="5dp"
+            tools:ignore="UseSwitchCompatOrMaterialXml"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:paddingStart="10dp"/>
+
+    </LinearLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -32,7 +313,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="40dp"
                 android:background="@drawable/roundbutton"
-                android:backgroundTint="#7700FF"
                 android:text="Назад"
                 android:textColor="@color/black"
                 android:fontFamily="@font/montserrat_alternates"
@@ -44,7 +324,6 @@
                 android:id="@+id/GoMenu"
                 android:layout_toRightOf="@id/BackActivity"
                 android:background="@drawable/roundbutton"
-                android:backgroundTint="#8D2AFF"
                 android:text="В меню"
                 android:textColor="@color/black"
                 android:fontFamily="@font/montserrat_alternates"
@@ -56,7 +335,6 @@
                 android:layout_height="40dp"
                 android:layout_toRightOf="@id/GoMenu"
                 android:background="@drawable/roundbutton"
-                android:backgroundTint="#7700FF"
                 android:text="Дальше"
                 android:textColor="@color/black"
                 android:fontFamily="@font/montserrat_alternates"
@@ -138,54 +416,27 @@
 
         </RelativeLayout>
 
-        <RelativeLayout
+        <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
+            android:text="-"
+            android:textColor="@color/black"
             android:layout_below="@+id/relativeLayout2"
-            android:layout_marginTop="2dp">
+            android:id="@+id/AllWeek"
+            android:background="@drawable/roundbutton"
+            android:fontFamily="@font/montserrat_alternates"
+            />
 
-            <Button
-                android:id="@+id/OneGroup"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:background="@drawable/roundbutton"
-                android:backgroundTint="#92FF58"
-                android:text="1"
-                android:textColor="@color/black"
-                android:fontFamily="@font/montserrat_alternates"
-                />
 
-            <Button
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:text="-"
-                android:textColor="@color/black"
-                android:layout_toRightOf="@id/OneGroup"
-                android:id="@+id/AllWeek"
-                android:background="@drawable/roundbutton"
-                android:fontFamily="@font/montserrat_alternates"
-                />
-
-            <Button
-                android:id="@+id/TwoGroup"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:background="@drawable/roundbutton"
-                android:backgroundTint="#FF5858"
-                android:text="2"
-                android:textColor="@color/black"
-                android:fontFamily="@font/montserrat_alternates"
-                android:layout_toRightOf="@id/AllWeek"
-                />
-
-        </RelativeLayout>
 
     </RelativeLayout>
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/relativeLayout">
+        android:layout_below="@+id/relativeLayout"
+        android:id="@+id/scrollView"
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
