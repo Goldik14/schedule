@@ -469,12 +469,6 @@ class NowWeek : AppCompatActivity() {
         val cornerRadiusPx = dpToPx(cornerRadiusDp)
         val strokeWidthPx = dpToPx(strokeWidthDp)
 
-        val pressed = GradientDrawable()
-        pressed.setColor(Color.parseColor("#B3612E9C"))
-        pressed.setStroke(strokeWidthPx, Color.parseColor("#00000000"))
-        pressed.cornerRadius = cornerRadiusPx.toFloat()
-        drawable.addState(intArrayOf(android.R.attr.state_pressed), pressed)
-
         val normal = GradientDrawable()
         normal.setColor(color)
         normal.setStroke(strokeWidthPx, Color.parseColor("#00000000"))
