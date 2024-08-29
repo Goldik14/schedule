@@ -4,10 +4,9 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
 
-    <corners android:radius="30dp" />
-
+    <corners android:radius="16dp" />
 
     <!--- This is the background color -->
-    <solid android:color="#B0000000" />
+    <solid android:color="#A1000000" />
 
 </shape>
